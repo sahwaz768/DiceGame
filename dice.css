@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-color: rgb(233, 68, 68);
+  width: 100vw;
+  height: 100vh;
+}
+.player0{
+  background-color: rgb(168, 114, 114);
+  margin-top: 10vh;
+  margin-left: 10vw;
+  width: 40vw;
+  height: 80vh;
+  float: left;
+}
+.player1{
+  background-color: rgb(138, 72, 72);
+  margin-top: 10vh;
+  margin-right: 10vw;
+  width: 40vw;
+  height: 80vh;
+  float: right;
+}
+.player {
+  font-size: 35px;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.number {
+  font-size: 35px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.box {
+  width: 230px;
+  height: 120px;
+  background-color: rgb(184, 41, 41);
+  margin-top: 25vh;
+  margin-left: 12vw;
+}
+.current {
+  font-size: 25px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.number2 {
+  font-size: 30px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.main {
+  position: absolute;
+  top: 30%;
+  left: 47%;
+}
+.main img{
+  margin-top: 50px;
+  margin-left: 16px;
+}
+.icon{
+  width: 100px;
+  height: 30px;
+}
+.hidden{
+  display: none;
+}
+.player--winner{
+  background-color: black;
+}
